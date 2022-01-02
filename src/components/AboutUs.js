@@ -12,7 +12,7 @@ const AboutUs = () => {
 
                 <h2 className="text-center text-2xl font-semibold mt-3 uppercase">KSI Internationals</h2>
 
-                <p className="mt-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestiae deleniti itaque culpa, architecto temporibus odio blanditiis vel, nobis dolore harum vero delectus ipsa quasi numquam magni repudiandae quia recusandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sed amet, dolores, perferendis mollitia dolor adipisci fugiat eos ea rerum expedita. Alias quasi aliquam iure voluptatum corrupti illo reprehenderit molestiae!</p>
+                <p className="mt-2 text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestiae deleniti itaque culpa, architecto temporibus odio blanditiis vel, nobis dolore harum vero delectus ipsa quasi numquam magni repudiandae quia recusandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sed amet, dolores, perferendis mollitia dolor adipisci fugiat eos ea rerum expedita. Alias quasi aliquam iure voluptatum corrupti illo reprehenderit molestiae!</p>
             </div>
         </section >
     );

@@ -3,8 +3,10 @@ import ImageSlider from './components/ImageSlider';
 import AboutUs from './components/AboutUs';
 import OurProducts from './components/OurProducts';
 import OurPartners from './components/OurPartners';
+import UpcomingProducts from './components/UpcomingProducts';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import OurDetails from './components/OurDetails';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <AboutUs></AboutUs>
         <OurProducts></OurProducts>
         <OurPartners></OurPartners>
+        <UpcomingProducts></UpcomingProducts>
+        <OurDetails></OurDetails>
       </section>
     </div>
   );
