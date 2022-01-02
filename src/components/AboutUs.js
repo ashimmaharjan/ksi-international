@@ -3,7 +3,7 @@ import { GiPill } from 'react-icons/gi'
 const AboutUs = () => {
     return (
         <section className="px-10">
-            <div className="mt-10">
+            <div>
                 <div className='flex items-center justify-center space-x-5'>
                     <GiPill className='w-7 h-7' style={{ color: "#22d3ee" }} />
                     <h1 className="text-center text-3xl font-semibold"> About Us</h1>
