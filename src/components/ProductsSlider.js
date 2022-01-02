@@ -10,7 +10,7 @@ function SampleNextArrow(props) {
     return (
         <div
             className={className}
-            style={{ ...style, display: "block", background: "#0f172a", borderRadius: '10px', marginTop: '-5px' }}
+            style={{ ...style, display: "block", background: "#22d3ee", borderRadius: '10px' }}
             onClick={onClick}
         />
     );
@@ -20,7 +20,7 @@ function SamplePrevArrow(props) {
     return (
         <div
             className={className}
-            style={{ ...style, display: "block", background: "#0f172a", borderRadius: '10px', marginTop: '-5px' }}
+            style={{ ...style, display: "block", background: "#22d3ee", borderRadius: '10px', }}
             onClick={onClick}
         />
     );
@@ -49,6 +49,7 @@ const ProductSlider = () => {
                     slidesToScroll: 3,
                     infinite: true,
                     dots: true,
+                    arrows: false,
                 }
             },
             {
@@ -64,7 +65,7 @@ const ProductSlider = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    arrow: false,
+                    arrows: false,
                 }
             }
         ]

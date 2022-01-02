@@ -6,6 +6,11 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 .slick-slide div {
   outline: none;
 }
