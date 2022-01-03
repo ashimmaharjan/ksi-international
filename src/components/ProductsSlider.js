@@ -87,9 +87,9 @@ const ProductSlider = () => {
             <Slider {...settings}>
                 {
                     products.map((product) => (
-                        <div key={product.productId} className="px-3">
-                            <div className="w-full md:h-56 xl:h-64 overflow-hidden shadow-md rounded-2xl" style={{ background: '#22d3ee' }}>
-                                <img src={product.photo} className="object-contain w-full h-full" alt="" />
+                        <div key={product.productId} className="px-10 md:px-3">
+                            <div className="w-full h-56 xl:h-64 overflow-hidden shadow-md rounded-2xl" style={{ background: '#22d3ee' }}>
+                                <img src={product.photo} className="object-contain w-full h-56 xl:h-64" alt="" />
                             </div>
                         </div>
                     ))

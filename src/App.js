@@ -7,6 +7,7 @@ import UpcomingProducts from './components/UpcomingProducts';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import OurDetails from './components/OurDetails';
+import MyFooter from './components/MyFooter';
 
 function App() {
   return (
@@ -15,13 +16,14 @@ function App() {
         <Navbar></Navbar>
       </header>
 
-      <section id='content' className='space-y-14 pb-14'>
-        <ImageSlider></ImageSlider>
-        <AboutUs></AboutUs>
-        <OurProducts></OurProducts>
-        <OurPartners></OurPartners>
-        <UpcomingProducts></UpcomingProducts>
-        <OurDetails></OurDetails>
+      <section id='content' className='space-y-14'>
+        <ImageSlider />
+        <AboutUs />
+        <OurProducts />
+        <OurPartners />
+        <UpcomingProducts />
+        <OurDetails />
+        <MyFooter />
       </section>
     </div>
   );

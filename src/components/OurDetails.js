@@ -8,7 +8,7 @@ const OurDetails = () => {
     ]
 
     return (
-        <section className="px-3 md:px-10 py-10 w-11/12 mx-auto">
+        <section className="px-3 md:px-10 w-11/12 mx-auto">
             <h1 className="text-center text-3xl font-semibold"> Our Details </h1>
 
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 md:gap-5 mt-5 px-3">

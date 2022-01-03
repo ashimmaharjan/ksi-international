@@ -6,7 +6,7 @@ const Navbar = () => {
             <h1 className="text-2xl font-semibold">LOGO</h1>
 
             {/* Nav Links */}
-            <div className="hidden lg:block space-x-8">
+            <div className="hidden lg:block space-x-8 nav-links">
                 <a href="">Home</a>
                 <a href="">About Us</a>
                 <a href="">Gallery</a>

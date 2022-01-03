@@ -14,3 +14,11 @@ body {
 .slick-slide div {
   outline: none;
 }
+
+.submenu {
+  position: absolute;
+  top: 0;
+  display: none;
+  padding: 4px;
+  border: 2px solid;
+}
