@@ -14,7 +14,11 @@ const OurDetails = () => {
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 md:gap-5 mt-5 px-3">
 
                 {details.map((detail) => (
-                    <div key={detail.detailOf} className="col-span-1 text-center bg-cyan-400 text-white rounded-3xl shadow-md flex flex-col justify-center items-center py-5">
+                    <div key={detail.detailOf} className="col-span-1 text-center
+                     bg-cyan-400 text-white rounded-3xl shadow-md flex flex-col 
+                    justify-center items-center py-5 transform
+                     transition-all duration-500 ease-in-out
+                       cursor-pointer hover:bg-gray-900 hover:text-cyan-400">
                         <h1 className="text-xl md:text-3xl font-bold">{detail.number}+</h1>
                         <h6 className="mt-1 text-sm md:text-lg"> {detail.detailOf} </h6>
                     </div>
