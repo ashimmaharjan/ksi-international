@@ -80,12 +80,12 @@ body {
 
 .submenu2 {
   position: absolute;
-  left: 130px;
+  left: 100%;
   width: 140px;
   top: 0;
   background-color: #ffffff;
   --tw-text-opacity: 1;
-  padding: 8px;
+  padding: 4px;
   color: rgb(34 211 238 / var(--tw-text-opacity));
   border-radius: 0.75rem
     /* 12px */
