@@ -15,10 +15,92 @@ body {
   outline: none;
 }
 
+.menu {
+  z-index: 999999;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu li, menu a {
+  display: inline-block;
+}
+
+.menu li {
+  padding: 8px;
+  border-radius: 0.75rem
+    /* 12px */
+  ;
+  border-top-left-radius: 0px;
+  transition: all .3s ease-in-out;
+}
+
+.menu li:hover {
+  background: #ffffff;
+  --tw-text-opacity: 1;
+  color: rgb(34 211 238 / var(--tw-text-opacity));
+  cursor: pointer;
+
+}
+
+.menu li:hover>.carret-arrow {
+  transform: rotate(180deg);
+}
+
+/* Submenu */
+
+.submenu li, .submenu2 li {
+  padding: 2px 8px;
+  width: 100%;
+}
+
+.submenu li:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 211 238 / var(--tw-bg-opacity));
+  color: #ffffff;
+}
+
 .submenu {
   position: absolute;
-  top: 0;
+  width: 140px;
+  left: 0;
+  margin-top: 2px;
+  padding: 8px;
+  background-color: #ffffff;
+  --tw-text-opacity: 1;
+  color: rgb(34 211 238 / var(--tw-text-opacity));
+  border-radius: 0.75rem
+    /* 12px */
+  ;
+  border-top-left-radius: 0px;
   display: none;
-  padding: 4px;
-  border: 2px solid;
+  z-index: 999999;
+}
+
+.submenu2 {
+  position: absolute;
+  left: 130px;
+  width: 140px;
+  top: 0;
+  background-color: #ffffff;
+  --tw-text-opacity: 1;
+  padding: 8px;
+  color: rgb(34 211 238 / var(--tw-text-opacity));
+  border-radius: 0.75rem
+    /* 12px */
+  ;
+  border-top-left-radius: 0px;
+  display: none;
+  z-index: 999999;
+}
+
+/* Show on hover */
+
+.menu li:hover>.submenu {
+  display: block;
+}
+
+.submenu li:hover>.submenu2 {
+  display: block;
 }
