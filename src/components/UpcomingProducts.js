@@ -14,7 +14,7 @@ const UpcomingProducts = () => {
 
             <div className="grid grid-cols-2 gap-3 md:gap-5 mt-5 px-3 md:px-10 lg:px-20">
                 {upcomingProducts.map((upcomingProduct) => (
-                    <div key={upcomingProduct.productId} className='col-span-1 rounded-2xl shadow-md overflow-hidden bg-cyan-400'>
+                    <div key={upcomingProduct.productId} className='col-span-1 rounded-2xl shadow-md overflow-hidden bg-cyan-300'>
                         <img src={upcomingProduct.photo} className='object-contain w-full h-40 md:h-80 lg:h-96'></img>
                     </div>
                 ))}

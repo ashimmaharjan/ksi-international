@@ -4,7 +4,7 @@ import { RiMapPinLine } from "react-icons/ri"
 const MyFooter = () => {
     return (
         <section>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 px-10 md:px-20 bg-cyan-400 text-white py-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 px-10 md:px-20 bg-cyan-500 text-white py-5">
                 <div className="col-span-1 p-3">
                     <h6 className="font-semibold text-lg md:text-xl uppercase">Useful Links</h6>
                     <div className="mt-1 flex flex-col">

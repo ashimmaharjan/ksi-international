@@ -14,7 +14,7 @@ const AboutUs = () => {
 
                 <p className="mt-2 text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestiae deleniti itaque culpa, architecto temporibus odio blanditiis vel, nobis dolore harum vero delectus ipsa quasi numquam magni repudiandae quia recusandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sed amet, dolores, perferendis mollitia dolor adipisci fugiat eos ea rerum expedita. Alias quasi aliquam iure voluptatum corrupti illo reprehenderit molestiae!</p>
 
-                <div className='flex flex-col-reverse md:flex-row bg-cyan-400 mt-5 md:gap-5 rounded-3xl shadow-sm overflow-hidden'>
+                <div className='flex flex-col-reverse md:flex-row bg-cyan-300 mt-5 md:gap-5 rounded-3xl shadow-sm overflow-hidden'>
                     <div className='w-full md:w-1/2 p-5 lg:p-10'>
                         <h1 className='text-center text-2xl lg:text-3xl font-bold'> Our Opening <span className='text-white'>Hours</span> </h1>
                         <p className='mt-1 text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit.

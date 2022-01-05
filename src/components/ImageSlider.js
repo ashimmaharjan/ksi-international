@@ -24,7 +24,7 @@ const ImageSlider = () => {
         { photo: Equipment4 },
     ];
     return (
-        <section style={{ background: '#22d3ee' }}>
+        <section className='bg-cyan-300'>
             <Slider {...settings}>
                 {sliderImages.map((sliderImage) => (
                     <div>

@@ -35,7 +35,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className="flex justify-between text-white px-4 md:px-10 py-5 items-center" style={{ background: '#22d3ee' }}>
+        <div className="flex justify-between text-white px-4 md:px-10 py-5 items-center bg-cyan-300" >
             <h1 className="text-2xl font-semibold">LOGO</h1>
 
             {/* Nav Links */}
