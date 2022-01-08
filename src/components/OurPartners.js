@@ -7,6 +7,8 @@ const OurPartners = () => {
         { id: '2', logo: Logo1 },
         { id: '3', logo: Logo1 },
         { id: '4', logo: Logo1 },
+        { id: '5', logo: Logo1 },
+        { id: '6', logo: Logo1 },
     ]
 
     return (

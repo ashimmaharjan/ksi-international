@@ -1,4 +1,5 @@
-
+import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
 
 const OurDetails = () => {
 
@@ -21,7 +22,15 @@ const OurDetails = () => {
                     justify-center items-center py-5 transform
                      transition-all duration-500 ease-in-out
                        cursor-pointer hover:bg-gray-900 hover:text-cyan-400">
-                        <h1 className="text-xl md:text-3xl font-bold">{detail.number}+</h1>
+                        <h2>
+                            <CountUp start={0} end={detail.number} duration={5}>
+                                {({ countUpRef, start }) => (
+                                    <VisibilitySensor onChange={start}>
+                                        <span className='text-xl md:text-3xl font-bold' ref={countUpRef} />
+                                    </VisibilitySensor>
+                                )}
+                            </CountUp>
+                        </h2>
                         <h6 className="mt-1 text-sm md:text-lg"> {detail.detailOf} </h6>
                     </div>
                 ))}
